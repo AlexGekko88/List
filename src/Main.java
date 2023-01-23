@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("Вам доступны следующие операции: ");
         for (int i = 0; i < operations.size(); i++) {
-           System.out.println(i + 1 + ". " + operations.get(i));
+            System.out.println(i + 1 + ". " + operations.get(i));
         }
 
 
@@ -81,7 +81,7 @@ public class Main {
                             flag = false;
                         }
                     }
-                    if(flag) {
+                    if (flag) {
                         System.out.println("Таких покупок не нашлось");
                     }
 
@@ -90,7 +90,6 @@ public class Main {
                     System.out.println("Нет операции с таким номером.");
             }
         }
-
     }
 
     public static void purchasePrint(List purchases) { // метод выводит в консоль список покупок
